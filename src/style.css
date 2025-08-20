@@ -81,10 +81,10 @@ body {
   margin-bottom: 10px;
 }
 .game {
-  display: flex;
-  flex-direction: row;
+    display: block;
 }
 
 .game-info {
   margin-left: 20px;
 }
+
