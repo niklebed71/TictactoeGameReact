@@ -25,9 +25,9 @@ function Board (){
   const status = CalculateWinner(squares);
   let winner;
   if (status) {
-    winner = 'Победитель: ' + status;
+    winner = 'Winner is: ' + status;
   } else {
-    winner = 'Следующий ход: ' + (isNextX ? 'X' : 'O');
+    winner = 'Next turn is: ' + (isNextX ? 'X' : 'O');
   }
 
   return (

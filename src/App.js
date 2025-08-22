@@ -6,7 +6,8 @@ import './components/CalculateWinner';
 function App() {
   return (
     <div className="game" style = {{ display: 'block'}}>
-      <h1>Крестики-нолики</h1>
+       {/* The style.css is not working, so I set the style parameter directly in the div. */}
+      <h1>Tic-tac-toe.</h1>
       <Board/>
     </div>
   );
